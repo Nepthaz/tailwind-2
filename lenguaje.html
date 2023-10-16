@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.7.0/csshake.min.css">
+</head>
+<body>
+    <main class="w-[100vw] h-[100vh] flex">
+        <aside class="w-[30%] h-[100%] bg-blue-500 flex flex-col">
+            <div class="h-[30%]">
+                <div class="h-[100%] flex justify-center items-center">
+                    <img class="h-[auto] w-[70%] rounded-full min-[685px]:h-[183px] min-[685px]:w-[183px]" src="img/profile.png" alt="">
+                </div>
+            </div>
+            <div class="h-[50%] flex flex-col justify-center items-center text-white font-semibold">
+                <ul class="text-center flex flex-col gap-y-10">
+                    <li class="text-sm max-[450px]:text-xs min-[685px]:text-xl"><a href="index.html">¿Quien Soy?</a></li>
+                    <li class="text-sm max-[450px]:text-xs min-[685px]:text-xl"><a href="lenguaje.html">Lenguajes<br>Manejados</a></li>
+                    
+                    <li class="">
+                    <input type="checkbox" name="checkboxPortafolio" id="checkboxPortafolio">
+                    <label for="checkboxPortafolio" class="text-sm max-[450px]:text-xs min-[685px]:text-xl"><a href="Proyectos.html">Proyectos</a></label>
+                        <div class="hidden flex flex-col gap-y-1.5 mt-[15px]">
+                            <ul class="flex flex-col gap-y-2.5 text-center">
+                                <li class="text-xs min-[685px]:text-lg text-gray-600">Amazon</li>
+                                <li class="text-xs min-[685px]:text-lg text-gray-600">Youtube</li>
+                                <li class="text-xs min-[685px]:text-lg text-gray-600">Messi Page</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex h-[20%] justify-around items-center" >
+                <img class="h-[auto] w-[20%] min-[705px]:w-[42px] min-[705px]:h-[42px]" src="img/logotwitter.png" alt="">
+                <img class="h-[auto] w-[20%] min-[705px]:w-[42px] min-[705px]:h-[42px]" src="img/logogithub.png" alt="">
+                <img class="h-[auto] w-[20%] min-[705px]:w-[42px] min-[705px]:h-[42px]" src="img/logoemail.png" alt="">
+            </div>
+        </aside>
+        <main class="w-[70%] h-[100%]">
+            <section class="h-[50%] flex flex-col justify-around items-center">
+                <h1 class="font-bold text-2xl animate__animated animate__bounce float-left">HTML</h1>
+                <p class="max-[460px]:text-sm max-[380px]:text-xs text-gray-500 indent-5 text-justify animate__animated animate__bounce">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis porro dicta possimus, libero recusandae facilis laborum expedita eaque in debitis obcaecati quae optio temporibus officiis laboriosam odit eos nemo excepturi?</p>
+                <img class="w-[75%] min-[830px]:h-[175px] min-[830px]:w-[350px] animate__animated animate__zoomInDown" src="img/section-html.png" alt="">
+            </section>
+            <section class="h-[50%] flex flex-col justify-around items-center">
+                <h1 class="font-bold text-2xl animate__animated animate__bounce float-left">CSS</h1>
+                <p class="max-[460px]:text-sm max-[380px]:text-xs text-gray-500 indent-5 text-justify animate__animated animate__bounce">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis porro dicta possimus, libero recusandae facilis laborum expedita eaque in debitis obcaecati quae optio temporibus officiis laboriosam odit eos nemo excepturi?</p>
+                <img class="w-[75%] min-[550px]:h-[175px] min-[550px]:w-[350px] animate__animated animate__zoomInDown" src="img/css.png" alt="">
+            </section>
+        </main>
+    </main>
+
+</body>
+</html>

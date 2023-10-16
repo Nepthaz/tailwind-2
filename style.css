@@ -1,0 +1,6 @@
+#checkboxPortafolio{
+    display: none;
+}
+#checkboxPortafolio:checked ~ div{
+    display: block;
+}
